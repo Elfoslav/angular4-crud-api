@@ -1,0 +1,8 @@
+<p *ngIf="loading">
+  Loading...
+</p>
+<p *ngFor="let person of persons">
+  <a routerLink="{{'/persons/' + person.id}}" >{{person.name}} {{person.surname}}, {{person.age}} years old.</a>
+  |
+  <app-person-actions [id]="person.id"></app-person-actions>
+</p>

@@ -1,0 +1,13 @@
+<p *ngIf="loading">
+  Loading...  
+</p>
+
+<h1 *ngIf="person.name || person.surname">
+  {{person.name}} {{person.surname}}
+  <small>
+    <app-person-actions [id]="person.id"></app-person-actions>
+  </small>
+</h1>
+<p *ngIf="person.age">{{person.age}} years old.</p>
+<p *ngIf="person.error">{{person.error}}</p>
+<p><a routerLink="/persons">&larr; Back to persons</a></p>

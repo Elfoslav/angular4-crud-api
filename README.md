@@ -1,5 +1,7 @@
 # Angular4PersonsApi
 
+Creating, editing, deleting and showing simple person objects with Angular4 and Sanbox API
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.3.
 
 ## Development server
